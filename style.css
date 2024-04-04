@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    min-width: 400px;
+    max-width: 1200px;
+    width: 30vw;
+    background-color: #41BFB3;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.input_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+#input_text{
+    outline: 0;
+    width: 70%;
+
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 50px #00000061;
+}
+#btn{
+    background-color: #260101;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+
+    padding: 0.4rem 0.8rem;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+#btn:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+.container_tarefas{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tarefa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #9BF2EA;
+    border-radius: 2px;
+    
+    height: 3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    cursor: pointer;
+}
+.tarefa:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+    
+    
+}
